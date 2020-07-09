@@ -1,0 +1,94 @@
+body{
+    font-family: 'open sans',sans-serif ;
+    background-color: rgb(241, 238, 238) !important;
+}
+
+
+
+
+
+.cal{
+    width: 320px !important;
+    height: 520px !important;
+    background-color: #eaedef;
+    margin: 0 auto ;
+    top: 80px;
+    position: relative;
+    border-radius: 5px ;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (max-width: 320px) {
+    .cal {
+        
+      width: 100% !important;
+      font-size: 2px !important;
+    }
+  }
+
+
+.result{
+   padding-top: 10px;
+  
+    }
+
+
+
+.history{
+        text-align: right;
+        height: 20px ;
+        margin: 0 20px;
+        padding-top: 30px;
+        font-size: 15px;
+        color: #919191;
+       }
+       
+.output{
+       text-align: right;
+       height: 60px;
+       margin: 40px 20px;
+       font-size: 30px;
+       }
+       
+/* .keyboard{
+       margin-bottom: 10px !important;
+       }     */
+
+
+
+.operator,.number,.empty{
+        width: 40px !important;
+        height: 40px !important;
+        margin: 16px !important;
+        float: left !important;
+        border-radius: 50% !important;
+        border-width: 0 !important;
+        font-weight: bold !important;
+        color: black !important;
+    }       
+
+
+
+.number,.empty{
+        background-color: #eaedef !important;
+        font-size: 20px !important;
+}
+    
+.operator{
+        background-color: lightgray !important;
+        font-size: 20px !important;
+        
+    }
+    
+.number,.operator{
+        cursor: pointer !important;
+    }
+    
+.operator:active, .number:active{
+     font-size: 10px !important;
+    }
+    
+.operator:focus, .number:focus, .empty:focus{
+        outline: 0 !important;
+        
+    }    
